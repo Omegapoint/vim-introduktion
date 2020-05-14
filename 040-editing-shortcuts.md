@@ -11,9 +11,13 @@
 
 - yw                kopiera ord
 - yy                kopiera rad
+- y$                kopiera till sutet av raden
 - dd                Ta bort hela raden
 - d0                Ta bort från markerad karaktär till början av raden
 
-
 - u                 undo
 - ctrl+r            redo
+
+
+- ctrl+a            öka ett tal med 1.
+- ctrl+x            reducera ett tal med 1.
