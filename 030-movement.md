@@ -15,14 +15,13 @@ Finns ännu bättre
 - `gg`                        Första raden i filen
 - `G`                         Sista raden i filen
 
-- `w`, `W`
-- `e`, `E`
-- `b`, `B`
-- `(`, `)`
-- `{`, `}`
+# word vs WORD
+word är sepererade av whitespace och/eller punkt, medans WORD är enbart mellan whitespace.
 
-- mx
-- 'x
-- `x
+- `w`, `W`                    Hoppa till nästa word/WORD
+- `e`, `E`                    Hoppa till slutet av word/WORD
+- `b`, `B`                    Backa till förgående word/WORD
+- `(`, `)`                    nästa/förgående mening
+- `{`, `}`                    nästa/förgående paragraf
 
-- %
+- `%`                         Hoppa matchande (/{/[
