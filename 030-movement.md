@@ -1,6 +1,6 @@
 # Förflyttningar
 
-- Gå mellan tecken eller rader (ref: ADM-3A)  
+- Gå mellan tecken eller rader (ref: ADM-3A)
   `← h`, `↓ j`, `↑ k`, `→ l`
 
 Finns ännu bättre
@@ -15,4 +15,14 @@ Finns ännu bättre
 - `gg`                        Första raden i filen
 - `G`                         Sista raden i filen
 
+- `w`, `W`
+- `e`, `E`
+- `b`, `B`
+- `(`, `)`
+- `{`, `}`
 
+- mx
+- 'x
+- `x
+
+- %

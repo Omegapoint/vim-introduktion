@@ -1,7 +1,6 @@
 # Editing shortcuts / selections
 
-- ciw
-- diw
-- dt"
+- [d|c]iw
+- [d|c]t"
 - C, D, DD
 
