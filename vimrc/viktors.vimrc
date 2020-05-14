@@ -44,9 +44,25 @@ set nojoinspaces
 " ALE linting plugin
 call minpac#add('w0rp/ale')             " asynchronous linting engine
 
-" configure default fixers
-let g:ale_fixers = {'*': ['remove_trailing_lines', 'trim_whitespace']}
+" fixers/linters for each file type are configured in the
+" ~/.vim/ftplugin/{filetype}.vim files and will be sourced automatically for
+" that file type.
+" Example: python: ~/.vim/ftplugin/python.vim
+" The linters/fixers will only be run if they exist/are available, so I set
+" the 'priority' here and install the one I need in each virtual environment
+"   let b:ale_linters = ['pylint', 'mypy', 'bandit', 'flake8']
+"   let b:ale_fixers = ['black', 'isort']
+" Example: markdown: ~/.vim/ftplugin/markdown.vim
+" Don't run any fixers here, the 'trim_whitespace' is not recommended in
+" markdown where trailing whitespace matters (lists). Set the textwidth to 79
+" chars since no fixers will format the content.
+"   let b:ale_linters = []
+"   let b:ale_fixers = []
+"   setlocal tw=79
+"   setlocal indentexpr=
 
+" configure default fixers (see comment about markdown above)
+let g:ale_fixers = {'*': ['remove_trailing_lines', 'trim_whitespace']}
 " do not lint or fix certain files
 let g:ale_pattern_options = {
       \ '\.min\.js$': {'ale_linters': [], 'ale_fixers': []},
