@@ -14,6 +14,8 @@
 - \d            Matchar numerisk karaktär
 - \D            Matchar icke numerisk karaktär
 
+## new line \r och inte \n
+
 ## :[range]s/search/replace/
 
 - Ersätt alla förekomster och inte enbart första? lägg till ett g i slutet!
